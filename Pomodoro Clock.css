@@ -1,0 +1,151 @@
+* {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+supported by Chrome and Opera */
+}
+
+body {
+    background-color: #01303b;
+    overflow: hidden;
+}
+
+h1 {
+    margin-top: 7vh;
+    font-size: 11vh;
+    /*100px; */
+    font-family: "Dancing Script";
+    color: #f5ffc4;
+}
+
+.btn {
+    width: 20%;
+    min-width: 20px;
+    height: 70px;
+    margin: 25px 0;
+    border: groove 5px #79e8ff;
+    border-radius: 25px;
+    font-size: 170%;
+    color: #980000;
+    -webkit-box-shadow: 0px 0px 100px 0px rgba(255, 255, 255, 0.61);
+    -moz-box-shadow: 0px 0px 100px 0px rgba(255, 255, 255, 0.61);
+    box-shadow: 0px 0px 100px 0px rgba(255, 255, 255, 0.61);
+    transition: transform 1s, box-shadow 0.7s;
+}
+
+.btn:active {
+    transform: translateY(3px);
+    -webkit-box-shadow: 0px;
+    -moz-box-shadow: 0px;
+    box-shadow: 0px;
+}
+
+#start {
+    background-color: #7eff7f;
+}
+
+
+/*#stop {
+	background-color: #ffafaf;
+}*/
+
+#reset {
+    background-color: #6464ff;
+}
+
+.timeType {
+    color: #f8f66e;
+    font-size: 150%;
+    margin-bottom: -5px;
+    background-color: #01303b;
+}
+
+.time {
+    color: #6ef8f3;
+    font-size: 150%;
+    background-color: #01303b;
+}
+
+#session,
+#break {
+    font-size: 200%;
+    margin: 0 10px;
+}
+
+.button {
+    background-color: #01303b;
+}
+
+
+/*.time {
+	font-size: 5vw;
+	font-family: "Nunito";
+	min-width: 50px;
+	color: #fff;
+	background-color: #01303b;
+	margin: 100px 0 0 0;
+}
+
+div.time > i {
+	font-size: 50%;
+}
+.session {
+	text-align: right;
+	border-right: 2px solid #fff;
+	padding: 0 10px 0 0;
+}
+
+.break {
+	text-align: left;
+	border-left: 2px solid #fff;
+}
+*/
+
+
+/*.footer {
+	position : absolute;
+	width : 60%;
+	margin: 20px auto;
+	bottom: 2%;
+	left : 20%;
+	z-index:-1;
+}*/
+
+h4 {
+    font-family: "Tangerine";
+    font-size: 150%;
+    font-weight: 800;
+    width: 40%;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 3%;
+    left: 30%;
+    z-index: -1;
+    color: #e98e8e;
+    text-shadow: 2px 2px 8px #f00;
+    -webkit-: 2px 2px 8px #f00;
+    -moz-: 2px 2px 8px #f00;
+    -o-: 2px 2px 8px #f00;
+}
+
+h4 a {
+    color: #ffcb4d;
+}
+
+h4 a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+h4:hover {
+    transform: scale(1.2);
+}
